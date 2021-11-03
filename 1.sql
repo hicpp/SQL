@@ -18,7 +18,7 @@ CREATE TABLE Product
 
 -- 1.5
 -- 表的删除
-DROP TABLE Product
+DROP TABLE Product;
 
 
 -- 表定义的更新
@@ -44,4 +44,4 @@ COMMIT;
 
 -- 表名变更
 ALTER TABLE Poduct RENAME TO Product;
--- sp_rename 'Poduct', 'Product'
+-- sp_rename 'Poduct', 'Product';
